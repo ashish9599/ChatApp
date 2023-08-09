@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 70px;
+  background-color: #d5d3d3;
+}
+
+.footer input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.footer button{
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  background-color: #1e72b5;
+  scale: 1.04;
+}

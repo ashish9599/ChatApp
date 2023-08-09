@@ -1,0 +1,72 @@
+.chatArea {
+  height: 450px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message {
+  display: flex;
+  height: 50px;
+  width: 90%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.likes {
+  display: flex;
+}
+
+.likes img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.likes span {
+  font-size: 18px;
+}
+
+.messageContent {
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.user1 {
+  background-color: #ffe3d6;
+}
+
+.user2 {
+  background-color: #C1FDD9;
+}
+
+.user3 {
+  background-color: #FDC1D3;
+}
+
+.user4 {
+  background-color: #C1C5FD;
+}
+
+.user5 {
+  background-color: #e5b493;
+}
+
+.noMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 18px;
+  color: #888;
+}
